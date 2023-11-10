@@ -7,4 +7,11 @@ export default defineConfig({
   resolve: {
     root: ['./src', './dist'],
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "src/css/main.scss";`,
+      },
+    },
+ },
 })
