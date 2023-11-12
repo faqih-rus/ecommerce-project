@@ -10,7 +10,6 @@ import SyaratKetenPage from './Pages/SyaratKetenPage';
 import FaqPages from './Pages/FaqPages';
 import FooterComponent from './components/FooterComponent';
 
-
 function App() {
   return (<div>
     <NavbarComponent />
